@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BankATMEmulator
+namespace BankATMEmulator.Print
 {
     public static class ArtAssets
     {

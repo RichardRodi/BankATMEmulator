@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BankATMEmulator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c6e28ea0bb6c7debc789a71b8ad5436196c55bfa")]
 [assembly: System.Reflection.AssemblyProductAttribute("BankATMEmulator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BankATMEmulator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

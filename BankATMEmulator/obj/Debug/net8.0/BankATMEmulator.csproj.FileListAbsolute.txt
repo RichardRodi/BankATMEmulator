@@ -12,3 +12,4 @@ C:\Users\Rich Rodi\Desktop\ReDoneProjects\BankATMEmulator\BankATMEmulator\obj\De
 C:\Users\Rich Rodi\Desktop\ReDoneProjects\BankATMEmulator\BankATMEmulator\obj\Debug\net8.0\BankATMEmulator.pdb
 C:\Users\Rich Rodi\Desktop\ReDoneProjects\BankATMEmulator\BankATMEmulator\obj\Debug\net8.0\BankATMEmulator.genruntimeconfig.cache
 C:\Users\Rich Rodi\Desktop\ReDoneProjects\BankATMEmulator\BankATMEmulator\obj\Debug\net8.0\ref\BankATMEmulator.dll
+C:\Users\Rich Rodi\Desktop\ReDoneProjects\BankATMEmulator\BankATMEmulator\obj\Debug\net8.0\BankATMEmulator.sourcelink.json

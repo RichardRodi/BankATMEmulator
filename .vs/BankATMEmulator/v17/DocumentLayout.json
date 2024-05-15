@@ -3,48 +3,43 @@
   "WorkspaceRootPath": "C:\\Users\\Rich Rodi\\Desktop\\ReDoneProjects\\BankATMEmulator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{71E69558-095C-4392-A8E7-1B422FE86CD9}|BankATMEmulator\\BankATMEmulator.csproj|c:\\users\\rich rodi\\desktop\\redoneprojects\\bankatmemulator\\bankatmemulator\\accountscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71E69558-095C-4392-A8E7-1B422FE86CD9}|BankATMEmulator\\BankATMEmulator.csproj|solutionrelative:bankatmemulator\\accountscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{71E69558-095C-4392-A8E7-1B422FE86CD9}|BankATMEmulator\\BankATMEmulator.csproj|c:\\users\\rich rodi\\desktop\\redoneprojects\\bankatmemulator\\bankatmemulator\\accountloginscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71E69558-095C-4392-A8E7-1B422FE86CD9}|BankATMEmulator\\BankATMEmulator.csproj|solutionrelative:bankatmemulator\\accountloginscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71E69558-095C-4392-A8E7-1B422FE86CD9}|BankATMEmulator\\BankATMEmulator.csproj|c:\\users\\rich rodi\\desktop\\redoneprojects\\bankatmemulator\\bankatmemulator\\bankmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71E69558-095C-4392-A8E7-1B422FE86CD9}|BankATMEmulator\\BankATMEmulator.csproj|solutionrelative:bankatmemulator\\bankmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71E69558-095C-4392-A8E7-1B422FE86CD9}|BankATMEmulator\\BankATMEmulator.csproj|c:\\users\\rich rodi\\desktop\\redoneprojects\\bankatmemulator\\bankatmemulator\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71E69558-095C-4392-A8E7-1B422FE86CD9}|BankATMEmulator\\BankATMEmulator.csproj|solutionrelative:bankatmemulator\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71E69558-095C-4392-A8E7-1B422FE86CD9}|BankATMEmulator\\BankATMEmulator.csproj|c:\\users\\rich rodi\\desktop\\redoneprojects\\bankatmemulator\\bankatmemulator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71E69558-095C-4392-A8E7-1B422FE86CD9}|BankATMEmulator\\BankATMEmulator.csproj|solutionrelative:bankatmemulator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71E69558-095C-4392-A8E7-1B422FE86CD9}|BankATMEmulator\\BankATMEmulator.csproj|c:\\users\\rich rodi\\desktop\\redoneprojects\\bankatmemulator\\bankatmemulator\\bankaccounts\\richardaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71E69558-095C-4392-A8E7-1B422FE86CD9}|BankATMEmulator\\BankATMEmulator.csproj|solutionrelative:bankatmemulator\\bankaccounts\\richardaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71E69558-095C-4392-A8E7-1B422FE86CD9}|BankATMEmulator\\BankATMEmulator.csproj|c:\\users\\rich rodi\\desktop\\redoneprojects\\bankatmemulator\\bankatmemulator\\bankmainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71E69558-095C-4392-A8E7-1B422FE86CD9}|BankATMEmulator\\BankATMEmulator.csproj|solutionrelative:bankatmemulator\\bankmainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71E69558-095C-4392-A8E7-1B422FE86CD9}|BankATMEmulator\\BankATMEmulator.csproj|c:\\users\\rich rodi\\desktop\\redoneprojects\\bankatmemulator\\bankatmemulator\\bankaccounts\\rosaaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71E69558-095C-4392-A8E7-1B422FE86CD9}|BankATMEmulator\\BankATMEmulator.csproj|solutionrelative:bankatmemulator\\bankaccounts\\rosaaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71E69558-095C-4392-A8E7-1B422FE86CD9}|BankATMEmulator\\BankATMEmulator.csproj|c:\\users\\rich rodi\\desktop\\redoneprojects\\bankatmemulator\\bankatmemulator\\artassets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71E69558-095C-4392-A8E7-1B422FE86CD9}|BankATMEmulator\\BankATMEmulator.csproj|solutionrelative:bankatmemulator\\artassets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71E69558-095C-4392-A8E7-1B422FE86CD9}|BankATMEmulator\\BankATMEmulator.csproj|c:\\users\\rich rodi\\desktop\\redoneprojects\\bankatmemulator\\bankatmemulator\\bankaccounts\\banker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71E69558-095C-4392-A8E7-1B422FE86CD9}|BankATMEmulator\\BankATMEmulator.csproj|solutionrelative:bankatmemulator\\bankaccounts\\banker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{71E69558-095C-4392-A8E7-1B422FE86CD9}|BankATMEmulator\\BankATMEmulator.csproj|c:\\users\\rich rodi\\desktop\\redoneprojects\\bankatmemulator\\bankatmemulator\\bankaccounts\\personalaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71E69558-095C-4392-A8E7-1B422FE86CD9}|BankATMEmulator\\BankATMEmulator.csproj|solutionrelative:bankatmemulator\\bankaccounts\\personalaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{71E69558-095C-4392-A8E7-1B422FE86CD9}|BankATMEmulator\\BankATMEmulator.csproj|c:\\users\\rich rodi\\desktop\\redoneprojects\\bankatmemulator\\bankatmemulator\\bankaccounts\\baseaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{71E69558-095C-4392-A8E7-1B422FE86CD9}|BankATMEmulator\\BankATMEmulator.csproj|solutionrelative:bankatmemulator\\bankaccounts\\baseaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71E69558-095C-4392-A8E7-1B422FE86CD9}|BankATMEmulator\\BankATMEmulator.csproj|c:\\users\\rich rodi\\desktop\\redoneprojects\\bankatmemulator\\bankatmemulator\\bankaccounts\\remiaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71E69558-095C-4392-A8E7-1B422FE86CD9}|BankATMEmulator\\BankATMEmulator.csproj|solutionrelative:bankatmemulator\\bankaccounts\\remiaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{71E69558-095C-4392-A8E7-1B422FE86CD9}|BankATMEmulator\\BankATMEmulator.csproj|c:\\users\\rich rodi\\desktop\\redoneprojects\\bankatmemulator\\bankatmemulator\\bankmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71E69558-095C-4392-A8E7-1B422FE86CD9}|BankATMEmulator\\BankATMEmulator.csproj|solutionrelative:bankatmemulator\\bankmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71E69558-095C-4392-A8E7-1B422FE86CD9}|BankATMEmulator\\BankATMEmulator.csproj|c:\\users\\rich rodi\\desktop\\redoneprojects\\bankatmemulator\\bankatmemulator\\bankaccounts\\banker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71E69558-095C-4392-A8E7-1B422FE86CD9}|BankATMEmulator\\BankATMEmulator.csproj|solutionrelative:bankatmemulator\\bankaccounts\\banker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71E69558-095C-4392-A8E7-1B422FE86CD9}|BankATMEmulator\\BankATMEmulator.csproj|c:\\users\\rich rodi\\desktop\\redoneprojects\\bankatmemulator\\bankatmemulator\\print\\printerclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71E69558-095C-4392-A8E7-1B422FE86CD9}|BankATMEmulator\\BankATMEmulator.csproj|solutionrelative:bankatmemulator\\print\\printerclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71E69558-095C-4392-A8E7-1B422FE86CD9}|BankATMEmulator\\BankATMEmulator.csproj|c:\\users\\rich rodi\\desktop\\redoneprojects\\bankatmemulator\\bankatmemulator\\print\\artassets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71E69558-095C-4392-A8E7-1B422FE86CD9}|BankATMEmulator\\BankATMEmulator.csproj|solutionrelative:bankatmemulator\\print\\artassets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71E69558-095C-4392-A8E7-1B422FE86CD9}|BankATMEmulator\\BankATMEmulator.csproj|c:\\users\\rich rodi\\desktop\\redoneprojects\\bankatmemulator\\bankatmemulator\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71E69558-095C-4392-A8E7-1B422FE86CD9}|BankATMEmulator\\BankATMEmulator.csproj|solutionrelative:bankatmemulator\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Rich Rodi\\AppData\\Local\\Temp\\.vsdbgsrc\\cf8326c2c2a105bd95a65883e35eca697c5566afa16b59ba99f1b3b5400ae08b\\Number.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71E69558-095C-4392-A8E7-1B422FE86CD9}|BankATMEmulator\\BankATMEmulator.csproj|c:\\users\\rich rodi\\desktop\\redoneprojects\\bankatmemulator\\bankatmemulator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71E69558-095C-4392-A8E7-1B422FE86CD9}|BankATMEmulator\\BankATMEmulator.csproj|solutionrelative:bankatmemulator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,78 +61,78 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PersonalAccount.cs",
+              "DocumentMoniker": "C:\\Users\\Rich Rodi\\Desktop\\ReDoneProjects\\BankATMEmulator\\BankATMEmulator\\BankAccounts\\PersonalAccount.cs",
+              "RelativeDocumentMoniker": "BankATMEmulator\\BankAccounts\\PersonalAccount.cs",
+              "ToolTip": "C:\\Users\\Rich Rodi\\Desktop\\ReDoneProjects\\BankATMEmulator\\BankATMEmulator\\BankAccounts\\PersonalAccount.cs",
+              "RelativeToolTip": "BankATMEmulator\\BankAccounts\\PersonalAccount.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAwwFkAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T19:05:54.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PrinterClass.cs",
+              "DocumentMoniker": "C:\\Users\\Rich Rodi\\Desktop\\ReDoneProjects\\BankATMEmulator\\BankATMEmulator\\Print\\PrinterClass.cs",
+              "RelativeDocumentMoniker": "BankATMEmulator\\Print\\PrinterClass.cs",
+              "ToolTip": "C:\\Users\\Rich Rodi\\Desktop\\ReDoneProjects\\BankATMEmulator\\BankATMEmulator\\Print\\PrinterClass.cs",
+              "RelativeToolTip": "BankATMEmulator\\Print\\PrinterClass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T18:39:08.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "Number.cs",
+              "DocumentMoniker": "C:\\Users\\Rich Rodi\\AppData\\Local\\Temp\\.vsdbgsrc\\cf8326c2c2a105bd95a65883e35eca697c5566afa16b59ba99f1b3b5400ae08b\\Number.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\cf8326c2c2a105bd95a65883e35eca697c5566afa16b59ba99f1b3b5400ae08b\\Number.cs",
+              "ToolTip": "C:\\Users\\Rich Rodi\\AppData\\Local\\Temp\\.vsdbgsrc\\cf8326c2c2a105bd95a65883e35eca697c5566afa16b59ba99f1b3b5400ae08b\\Number.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\cf8326c2c2a105bd95a65883e35eca697c5566afa16b59ba99f1b3b5400ae08b\\Number.cs [Read Only]",
+              "ViewState": "AQIAABIXAAAAAAAAAAAAACoXAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T17:53:03.153Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Banker.cs",
               "DocumentMoniker": "C:\\Users\\Rich Rodi\\Desktop\\ReDoneProjects\\BankATMEmulator\\BankATMEmulator\\BankAccounts\\Banker.cs",
               "RelativeDocumentMoniker": "BankATMEmulator\\BankAccounts\\Banker.cs",
               "ToolTip": "C:\\Users\\Rich Rodi\\Desktop\\ReDoneProjects\\BankATMEmulator\\BankATMEmulator\\BankAccounts\\Banker.cs",
               "RelativeToolTip": "BankATMEmulator\\BankAccounts\\Banker.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA5AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-15T15:11:12.605Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "BaseAccount.cs",
               "DocumentMoniker": "C:\\Users\\Rich Rodi\\Desktop\\ReDoneProjects\\BankATMEmulator\\BankATMEmulator\\BankAccounts\\BaseAccount.cs",
               "RelativeDocumentMoniker": "BankATMEmulator\\BankAccounts\\BaseAccount.cs",
               "ToolTip": "C:\\Users\\Rich Rodi\\Desktop\\ReDoneProjects\\BankATMEmulator\\BankATMEmulator\\BankAccounts\\BaseAccount.cs",
               "RelativeToolTip": "BankATMEmulator\\BankAccounts\\BaseAccount.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAuAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-15T14:16:27.571Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "RemiAccount.cs",
-              "DocumentMoniker": "C:\\Users\\Rich Rodi\\Desktop\\ReDoneProjects\\BankATMEmulator\\BankATMEmulator\\BankAccounts\\RemiAccount.cs",
-              "RelativeDocumentMoniker": "BankATMEmulator\\BankAccounts\\RemiAccount.cs",
-              "ToolTip": "C:\\Users\\Rich Rodi\\Desktop\\ReDoneProjects\\BankATMEmulator\\BankATMEmulator\\BankAccounts\\RemiAccount.cs",
-              "RelativeToolTip": "BankATMEmulator\\BankAccounts\\RemiAccount.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T14:16:18.449Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RosaAccount.cs",
-              "DocumentMoniker": "C:\\Users\\Rich Rodi\\Desktop\\ReDoneProjects\\BankATMEmulator\\BankATMEmulator\\BankAccounts\\RosaAccount.cs",
-              "RelativeDocumentMoniker": "BankATMEmulator\\BankAccounts\\RosaAccount.cs",
-              "ToolTip": "C:\\Users\\Rich Rodi\\Desktop\\ReDoneProjects\\BankATMEmulator\\BankATMEmulator\\BankAccounts\\RosaAccount.cs",
-              "RelativeToolTip": "BankATMEmulator\\BankAccounts\\RosaAccount.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T14:15:54.241Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RichardAccount.cs",
-              "DocumentMoniker": "C:\\Users\\Rich Rodi\\Desktop\\ReDoneProjects\\BankATMEmulator\\BankATMEmulator\\BankAccounts\\RichardAccount.cs",
-              "RelativeDocumentMoniker": "BankATMEmulator\\BankAccounts\\RichardAccount.cs",
-              "ToolTip": "C:\\Users\\Rich Rodi\\Desktop\\ReDoneProjects\\BankATMEmulator\\BankATMEmulator\\BankAccounts\\RichardAccount.cs",
-              "RelativeToolTip": "BankATMEmulator\\BankAccounts\\RichardAccount.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAADgvyIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T14:15:41.952Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "BankManager.cs",
               "DocumentMoniker": "C:\\Users\\Rich Rodi\\Desktop\\ReDoneProjects\\BankATMEmulator\\BankATMEmulator\\BankManager.cs",
               "RelativeDocumentMoniker": "BankATMEmulator\\BankManager.cs",
               "ToolTip": "C:\\Users\\Rich Rodi\\Desktop\\ReDoneProjects\\BankATMEmulator\\BankATMEmulator\\BankManager.cs",
               "RelativeToolTip": "BankATMEmulator\\BankManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwCAAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-15T14:13:34.25Z",
               "EditorCaption": ""
@@ -145,58 +140,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AccountScreen.cs",
-              "DocumentMoniker": "C:\\Users\\Rich Rodi\\Desktop\\ReDoneProjects\\BankATMEmulator\\BankATMEmulator\\AccountScreen.cs",
-              "RelativeDocumentMoniker": "BankATMEmulator\\AccountScreen.cs",
-              "ToolTip": "C:\\Users\\Rich Rodi\\Desktop\\ReDoneProjects\\BankATMEmulator\\BankATMEmulator\\AccountScreen.cs",
-              "RelativeToolTip": "BankATMEmulator\\AccountScreen.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAgwDQAAAAAAAAA",
+              "Title": "AccountLoginScreen.cs",
+              "DocumentMoniker": "C:\\Users\\Rich Rodi\\Desktop\\ReDoneProjects\\BankATMEmulator\\BankATMEmulator\\AccountLoginScreen.cs",
+              "RelativeDocumentMoniker": "BankATMEmulator\\AccountLoginScreen.cs",
+              "ToolTip": "C:\\Users\\Rich Rodi\\Desktop\\ReDoneProjects\\BankATMEmulator\\BankATMEmulator\\AccountLoginScreen.cs",
+              "RelativeToolTip": "BankATMEmulator\\AccountLoginScreen.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAwwCoAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-15T14:09:29.952Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "ArtAssets.cs",
-              "DocumentMoniker": "C:\\Users\\Rich Rodi\\Desktop\\ReDoneProjects\\BankATMEmulator\\BankATMEmulator\\ArtAssets.cs",
-              "RelativeDocumentMoniker": "BankATMEmulator\\ArtAssets.cs",
-              "ToolTip": "C:\\Users\\Rich Rodi\\Desktop\\ReDoneProjects\\BankATMEmulator\\BankATMEmulator\\ArtAssets.cs",
-              "RelativeToolTip": "BankATMEmulator\\ArtAssets.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "DocumentMoniker": "C:\\Users\\Rich Rodi\\Desktop\\ReDoneProjects\\BankATMEmulator\\BankATMEmulator\\Print\\ArtAssets.cs",
+              "RelativeDocumentMoniker": "BankATMEmulator\\Print\\ArtAssets.cs",
+              "ToolTip": "C:\\Users\\Rich Rodi\\Desktop\\ReDoneProjects\\BankATMEmulator\\BankATMEmulator\\Print\\ArtAssets.cs",
+              "RelativeToolTip": "BankATMEmulator\\Print\\ArtAssets.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-14T19:49:47.403Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BankMainMenu.cs",
-              "DocumentMoniker": "C:\\Users\\Rich Rodi\\Desktop\\ReDoneProjects\\BankATMEmulator\\BankATMEmulator\\BankMainMenu.cs",
-              "RelativeDocumentMoniker": "BankATMEmulator\\BankMainMenu.cs",
-              "ToolTip": "C:\\Users\\Rich Rodi\\Desktop\\ReDoneProjects\\BankATMEmulator\\BankATMEmulator\\BankMainMenu.cs",
-              "RelativeToolTip": "BankATMEmulator\\BankMainMenu.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T19:39:53.263Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Menu.cs",
               "DocumentMoniker": "C:\\Users\\Rich Rodi\\Desktop\\ReDoneProjects\\BankATMEmulator\\BankATMEmulator\\Menu.cs",
               "RelativeDocumentMoniker": "BankATMEmulator\\Menu.cs",
               "ToolTip": "C:\\Users\\Rich Rodi\\Desktop\\ReDoneProjects\\BankATMEmulator\\BankATMEmulator\\Menu.cs",
               "RelativeToolTip": "BankATMEmulator\\Menu.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBAAAAAUAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBQAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-14T19:11:45.453Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Rich Rodi\\Desktop\\ReDoneProjects\\BankATMEmulator\\BankATMEmulator\\Program.cs",
               "RelativeDocumentMoniker": "BankATMEmulator\\Program.cs",

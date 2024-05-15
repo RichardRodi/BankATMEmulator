@@ -28,8 +28,8 @@
                 if (i == SelectedIndex)
                 {
                     prefix = "\u0024";
-                    Console.BackgroundColor = ConsoleColor.Black;
-                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.BackgroundColor = ConsoleColor.White;
+                    Console.ForegroundColor = ConsoleColor.Blue;
                 }
                 else
                 {
