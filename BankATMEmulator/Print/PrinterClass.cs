@@ -10,6 +10,8 @@ namespace BankATMEmulator.Print
     {
         public static string IndentAndReadLine(string prompt, int indentLevel)
         {
+            Console.BackgroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.White;
             string indent = new string(' ', indentLevel);
             Console.Write(indent + prompt + " ");
             return Console.ReadLine();

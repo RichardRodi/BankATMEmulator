@@ -20,11 +20,11 @@ namespace BankATMEmulator
         private void GenerateAllBankers()
         {
 
-            AllBankers.Add(new Banker(accountName: "Richard", balance: 500.21, 1111, "Richard To Cool for School"));
+            AllBankers.Add(new Banker(accountName: "Richard", balance: 500.21, pin: 1111, actualName: "Richard Too Cool for School"));
 
-            AllBankers.Add(new Banker(accountName: "Rosa", balance: 1000.87, 2222, "Rosa the Great"));
+            AllBankers.Add(new Banker(accountName: "Rosa", balance: 1000.87, pin: 2222, actualName: "Rosa the Great"));
 
-            AllBankers.Add(new Banker(accountName: "Remi", balance: 1200.22, 3333, "Remi the Grand"));
+            AllBankers.Add(new Banker(accountName: "Remi", balance: 1200.22, pin: 3333, actualName: "Remi the Grand"));
 
         }
 

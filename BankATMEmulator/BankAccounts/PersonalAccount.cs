@@ -19,16 +19,12 @@ namespace BankATMEmulator.BankAccounts
         public override void RunCurrentAccountMenu()
 
         {
-            AccountLoginScreen mainMenu = new AccountLoginScreen(this);
-
+            
             Console.BackgroundColor = ConsoleColor.Blue;
             Console.ForegroundColor = ConsoleColor.White;
-            Console.Clear();
+            string prompt = ($"{ArtAssets.BankMenu}\n\n\n\tHello {_bankManager.SelectedBanker.ActualName}!\n\tPlease make a selection using the arrow keys and enter.\n");
 
-            Console.WriteLine($"{ArtAssets.BankMenu}\n\n\n");
-            string prompt = ($"{ArtAssets.BankMenu}\n\n\n\tHello {_bankManager.SelectedBanker.ActualName}!\n\n\n\tPlease make a selection using the arrow keys and enter.\n\n\n");
-
-            string[] options = { $"1.Check Account Balance", "2.Make a Deposit ", "3.Make a Withdrawal", "4.Exit to Main Menu" };
+            string[] options = { $"1.Check Account Balance.", "2.Make a Deposit. ", "3.Make a Withdrawal.", "4.Exit to Main Menu." };
             Menu menu = new Menu(prompt, options);
             int selectedIndex = menu.Run();
 
@@ -37,84 +33,190 @@ namespace BankATMEmulator.BankAccounts
                 case 0:
                     Console.BackgroundColor = ConsoleColor.Blue;
                     Console.ForegroundColor = ConsoleColor.White;
+                    Console.Clear();
                     Console.WriteLine($"\n\n\n\tHello {_bankManager.SelectedBanker.AccountName}! Your current balance is:\n\t${_bankManager.SelectedBanker.Balance}");
                     Console.ReadKey();
-                    string response = PrinterClass.IndentAndReadLine("Is there anything else you want to do today? Y/N", 8);
-                    if (response == "y" || response == "Y" || response == "yes" || response == "Yes")
+                    string response = PrinterClass.IndentAndReadLine("\n\n\tIs there anything else you want to do today? Y/N", 8);
+                    if (response == "y" || response == "Y" || response == "yes" || response == "Yes" || response == "YES")
                     {
-                        Console.WriteLine("\tGreat What else can I help with?");
+                        Console.BackgroundColor = ConsoleColor.Blue;
+                        Console.ForegroundColor = ConsoleColor.White;
+                        Console.WriteLine("\n\tGreat What else can I help with?");
                         Console.ReadKey();
                         RunCurrentAccountMenu();
                     }
-                    if (response == "n" || response == "N" || response == "no" || response == "NO")
+                    if (response == "n" || response == "N" || response == "no" || response == "No" || response == "NO")
                     {
-                        Console.WriteLine("\tHave a great day!");
+                        Console.BackgroundColor = ConsoleColor.Blue;
+                        Console.ForegroundColor = ConsoleColor.White;
+                        Console.WriteLine("\n\tHave a great day!");
                         Console.ReadKey(true);
-                        mainMenu.RunATMLogin();
+                        _bankManager.RunATM();
+                       
                         
                     }
                     else
                     {
-                        Console.WriteLine("\tSorry Please make another selection") ;
+                        Console.BackgroundColor = ConsoleColor.Blue;
+                        Console.ForegroundColor = ConsoleColor.White;
+                        Console.WriteLine("\n\tSorry not a valid input returning to account login screen.");
+                        Console.ReadKey();
+                        _bankManager.RunATM();
                     }
                     break;
 
                 case 1:
                     Console.BackgroundColor = ConsoleColor.Blue;
                     Console.ForegroundColor = ConsoleColor.White;
-                    var amountToDeposit =  PrinterClass.IndentAndReadLine("\n\n\n\tHow much would like to deposit?", 8);
+                    Console.Clear();
+                    var amountToDeposit =  PrinterClass.IndentAndReadLine("\n\n\tHow much would like to deposit? :", 8);
                     if (!string.IsNullOrEmpty(amountToDeposit))
                     {
-                         double deposit = double.Parse(amountToDeposit);
-                        _bankManager.SelectedBanker.Balance += deposit;
+                        if (double.TryParse(amountToDeposit, out double deposit))
+                        { 
+                        _bankManager.SelectedBanker.Balance = Math.Round(_bankManager.SelectedBanker.Balance + deposit, 2); 
+                        }
                     }
                     else
                     {
-                        Console.WriteLine("\tNot a valid amount of money");
+                        Console.BackgroundColor = ConsoleColor.Blue;
+                        Console.ForegroundColor = ConsoleColor.White;
+                        Console.WriteLine("\n\n\tNot a valid amount of money.");
                         Console.ReadKey();
                         RunCurrentAccountMenu();
                     }
-                    Console.WriteLine($"\tYour new Balance is {_bankManager.SelectedBanker.Balance}");
-                    Console.ReadKey();
-                    RunCurrentAccountMenu();
+                    Console.BackgroundColor = ConsoleColor.Blue;
+                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.WriteLine($"\n\n\tThank you for your Deposit! Your new Balance is:\n\n\t${_bankManager.SelectedBanker.Balance} dollars.");
+                    string responseForDeposit = PrinterClass.IndentAndReadLine("\n\n\tIs there anything else you want to do today? Y/N", 8);
+                    if (responseForDeposit == "y" || responseForDeposit == "Y" || responseForDeposit == "yes" || responseForDeposit == "Yes" || responseForDeposit == "YES")
+                    {
+                        Console.BackgroundColor = ConsoleColor.Blue;
+                        Console.ForegroundColor = ConsoleColor.White;
+                        Console.WriteLine("\n\tGreat what else can I help with?");
+                        Console.ReadKey();
+                        RunCurrentAccountMenu();
+                    }
+                    if (responseForDeposit == "n" || responseForDeposit == "N" || responseForDeposit == "no" || responseForDeposit == "No" || responseForDeposit == "NO")
+                    {
+                        Console.BackgroundColor = ConsoleColor.Blue;
+                        Console.ForegroundColor = ConsoleColor.White;
+                        Console.WriteLine("\n\tHave a great day!");
+                        Console.ReadKey(true);
+                        _bankManager.RunATM();
+
+
+                    }
+                    else
+                    {
+                        Console.BackgroundColor = ConsoleColor.Blue;
+                        Console.ForegroundColor = ConsoleColor.White;
+                        Console.WriteLine("\n\tSorry not a valid input returning to account login screen.");
+                        Console.ReadKey();
+                        _bankManager.RunATM();
+                    }
                     break;
                 case 2:
                     Console.BackgroundColor = ConsoleColor.Blue;
                     Console.ForegroundColor = ConsoleColor.White;
-                    var amountToWithDraw = PrinterClass.IndentAndReadLine("\n\n\n\tHow much would like to withdraw?\n", 8);
+                    Console.Clear();
+                    var amountToWithDraw = PrinterClass.IndentAndReadLine("\n\n\tHow much would like to withdraw? :", 8);
                     if (!string.IsNullOrEmpty(amountToWithDraw))
                     {
-                         double withdrawal = double.Parse(amountToWithDraw);
-                        _bankManager.SelectedBanker.Balance -= withdrawal;
+                        if (double.TryParse(amountToWithDraw, out double withdrawal))
+                        {
+                            _bankManager.SelectedBanker.Balance = Math.Round(_bankManager.SelectedBanker.Balance - withdrawal, 2);
+                        }
+                       
                     }
                     else
                     {
-                        Console.WriteLine("\tNot a valid amount of money\n");
+                        Console.BackgroundColor = ConsoleColor.Blue;
+                        Console.ForegroundColor = ConsoleColor.White;
+                        Console.WriteLine("\n\n\tNot a valid amount of money.\n");
                         Console.ReadKey();
                         RunCurrentAccountMenu();
                     }
 
                     if (_bankManager.SelectedBanker.Balance >= 0)
-                    { 
-                    Console.WriteLine($"\tYour new Balance is {_bankManager.SelectedBanker.Balance}");
-                    Console.ReadKey();
-                    RunCurrentAccountMenu();
+                    {
+                        Console.BackgroundColor = ConsoleColor.Blue;
+                        Console.ForegroundColor = ConsoleColor.White;
+                        Console.WriteLine($"\n\n\tYou withdrew ${amountToWithDraw} dollars. Your new Balance is:\n\n\t${_bankManager.SelectedBanker.Balance} dollars.");
+                        string responseForWithdrawal = PrinterClass.IndentAndReadLine("\n\n\tIs there anything else you want to do today? Y/N", 8);
+                        if (responseForWithdrawal == "y" || responseForWithdrawal == "Y" || responseForWithdrawal == "yes" || responseForWithdrawal == "Yes" || responseForWithdrawal == "YES")
+                        {
+                            Console.BackgroundColor = ConsoleColor.Blue;
+                            Console.ForegroundColor = ConsoleColor.White;
+                            Console.WriteLine("\n\tGreat what else can I help with?");
+                            Console.ReadKey();
+                            RunCurrentAccountMenu();
+                        }
+                        if (responseForWithdrawal == "n" || responseForWithdrawal == "N" || responseForWithdrawal == "no" || responseForWithdrawal == "No" || responseForWithdrawal == "NO")
+                        {
+                            Console.BackgroundColor = ConsoleColor.Blue;
+                            Console.ForegroundColor = ConsoleColor.White;
+                            Console.WriteLine("\n\tHave a great day!");
+                            Console.ReadKey(true);
+                            _bankManager.RunATM();
+
+
+                        }
+                        else
+                        {
+                            Console.BackgroundColor = ConsoleColor.Blue;
+                            Console.ForegroundColor = ConsoleColor.White;
+                            Console.WriteLine("\n\tSorry not a valid input returning to account login screen.");
+                            Console.ReadKey();
+                            _bankManager.RunATM();
+                        }
+
                     }
 
                     else
                     {
-                        Console.WriteLine("\tYou over drafted on your Account!\n" +
-                            "\tAdd money soon of fees will incur!");
-                        Console.WriteLine($"\tYour new Balance is {_bankManager.SelectedBanker.Balance}");
+                        Console.BackgroundColor = ConsoleColor.Blue;
+                        Console.ForegroundColor = ConsoleColor.White;
+                        Console.WriteLine("\n\n\tYou over drafted on your Account!" +
+                            "\n\tAdd money soon or fees will incur!");
+                        Console.WriteLine($"\n\n\tYour new Balance is ${_bankManager.SelectedBanker.Balance} dollars.");
                         Console.ReadKey();
-                        RunCurrentAccountMenu();
+                        string responseForWithdrawal = PrinterClass.IndentAndReadLine("\n\n\tIs there anything else you want to do today? Y/N", 8);
+                        if (responseForWithdrawal == "y" || responseForWithdrawal == "Y" || responseForWithdrawal == "yes" || responseForWithdrawal == "Yes" || responseForWithdrawal == "YES")
+                        {
+                            Console.BackgroundColor = ConsoleColor.Blue;
+                            Console.ForegroundColor = ConsoleColor.White;
+                            Console.WriteLine("\n\tGreat what else can I help with?");
+                            Console.ReadKey();
+                            RunCurrentAccountMenu();
+                        }
+                        if (responseForWithdrawal == "n" || responseForWithdrawal == "N" || responseForWithdrawal == "No" || responseForWithdrawal == "NO")
+                        {
+                            Console.BackgroundColor = ConsoleColor.Blue;
+                            Console.ForegroundColor = ConsoleColor.White;
+                            Console.WriteLine("\n\tHave a great day!");
+                            Console.ReadKey(true);
+                            _bankManager.RunATM();
+
+
+                        }
+                        else
+                        {
+                            Console.BackgroundColor = ConsoleColor.Blue;
+                            Console.ForegroundColor = ConsoleColor.White;
+                            Console.WriteLine("\n\tSorry not a valid input returning to account login screen.");
+                            Console.ReadKey();
+                            _bankManager.RunATM();
+                        }
                     }
 
                     break;
                 case 3:
-                    Console.WriteLine("\tThanking you for banking with us!");
+                    Console.BackgroundColor = ConsoleColor.Blue;
+                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.WriteLine("\n\n\tThank you for banking with us!");
                     Console.ReadKey(true);
-                    mainMenu.RunATMLogin();
+                    _bankManager.RunATM();
                     break;
 
             }

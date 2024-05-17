@@ -13,10 +13,6 @@ namespace BankATMEmulator
             _bankManager = bankManager;
         }
 
-        public AccountLoginScreen(PersonalAccount personalAccount)
-        {
-            this.personalAccount = personalAccount;
-        }
 
         public override void ChooseAccount(Type accountType)
         {
@@ -31,8 +27,11 @@ namespace BankATMEmulator
             Console.ForegroundColor = ConsoleColor.White;
             Console.Clear();
             Console.WriteLine($"{ArtAssets.BankMenu}\n\n\n");
-
-            string accountName = PrinterClass.IndentAndReadLine("Please Enter Your Login:", 8);
+            Console.WriteLine("\tAccount info:\n\n" +
+                "      1.AccountName:'Richard' Pin: 1111\n" +
+                "      2.AccountName: 'Rosa' Pin: 2222\n" +
+                "      3.AccountName: 'Remi' Pin: 3333\n\n\n ");
+            string accountName = PrinterClass.IndentAndReadLine("Please Enter Your AccountName:", 8);
             int pin;
 
             while (!int.TryParse(PrinterClass.IndentAndReadLine("Please Enter Your PIN:", 8), out pin))

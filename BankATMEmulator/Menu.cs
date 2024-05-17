@@ -37,8 +37,9 @@
                     Console.BackgroundColor = ConsoleColor.Blue;
                     Console.ForegroundColor = ConsoleColor.White;
                 }
+                
+                Console.WriteLine($"       {prefix}   {currentOption} \n");
                 Console.ResetColor();
-                Console.WriteLine($"{prefix}   {currentOption} \n");
             }
         }
         public int Run()
