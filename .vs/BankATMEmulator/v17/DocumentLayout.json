@@ -49,8 +49,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -59,7 +67,7 @@
               "RelativeDocumentMoniker": "BankATMEmulator\\BankAccounts\\PersonalAccount.cs",
               "ToolTip": "C:\\Users\\Rich Rodi\\Desktop\\ReDoneProjects\\BankATMEmulator\\BankATMEmulator\\BankAccounts\\PersonalAccount.cs",
               "RelativeToolTip": "BankATMEmulator\\BankAccounts\\PersonalAccount.cs",
-              "ViewState": "AQIAALMAAAAAAAAAAAAwwLwAAAA6AAAA",
+              "ViewState": "AQIAAG4AAAAAAAAAAAAwwLwAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-15T19:05:54.78Z",
               "EditorCaption": ""
@@ -74,8 +82,7 @@
               "RelativeToolTip": "BankATMEmulator\\Print\\PrinterClass.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T18:39:08.488Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T18:39:08.488Z"
             },
             {
               "$type": "Document",
@@ -87,8 +94,7 @@
               "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\cf8326c2c2a105bd95a65883e35eca697c5566afa16b59ba99f1b3b5400ae08b\\Number.cs",
               "ViewState": "AQIAABQXAAAAAAAAAADgvykXAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T17:53:03.153Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T17:53:03.153Z"
             },
             {
               "$type": "Document",
@@ -100,8 +106,7 @@
               "RelativeToolTip": "BankATMEmulator\\BankAccounts\\Banker.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T15:11:12.605Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T15:11:12.605Z"
             },
             {
               "$type": "Document",
@@ -113,8 +118,7 @@
               "RelativeToolTip": "BankATMEmulator\\BankAccounts\\BaseAccount.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T14:16:27.571Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T14:16:27.571Z"
             },
             {
               "$type": "Document",
@@ -126,8 +130,7 @@
               "RelativeToolTip": "BankATMEmulator\\BankManager.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T14:13:34.25Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T14:13:34.25Z"
             },
             {
               "$type": "Document",
@@ -139,8 +142,7 @@
               "RelativeToolTip": "BankATMEmulator\\AccountLoginScreen.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T14:09:29.952Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T14:09:29.952Z"
             },
             {
               "$type": "Document",
@@ -152,8 +154,7 @@
               "RelativeToolTip": "BankATMEmulator\\Print\\ArtAssets.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T19:49:47.403Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T19:49:47.403Z"
             },
             {
               "$type": "Document",
@@ -165,8 +166,7 @@
               "RelativeToolTip": "BankATMEmulator\\Menu.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAQwC0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T19:11:45.453Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T19:11:45.453Z"
             },
             {
               "$type": "Document",
@@ -178,8 +178,7 @@
               "RelativeToolTip": "BankATMEmulator\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T19:09:16.949Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T19:09:16.949Z"
             }
           ]
         }

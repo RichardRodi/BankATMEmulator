@@ -1,0 +1,2 @@
+C:\Users\Rich Rodi\Desktop\Finished EXE\Release\net8.0\win-x64\BankATMEmulator.pdb
+C:\Users\Rich Rodi\Desktop\Finished EXE\Release\net8.0\win-x64\BankATMEmulator.exe

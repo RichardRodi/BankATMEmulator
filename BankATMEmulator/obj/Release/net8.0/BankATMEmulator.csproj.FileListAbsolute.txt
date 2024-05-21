@@ -1,0 +1,15 @@
+C:\Users\Rich Rodi\Desktop\ReDoneProjects\BankATMEmulator\BankATMEmulator\bin\Release\net8.0\BankATMEmulator.exe
+C:\Users\Rich Rodi\Desktop\ReDoneProjects\BankATMEmulator\BankATMEmulator\bin\Release\net8.0\BankATMEmulator.deps.json
+C:\Users\Rich Rodi\Desktop\ReDoneProjects\BankATMEmulator\BankATMEmulator\bin\Release\net8.0\BankATMEmulator.runtimeconfig.json
+C:\Users\Rich Rodi\Desktop\ReDoneProjects\BankATMEmulator\BankATMEmulator\bin\Release\net8.0\BankATMEmulator.dll
+C:\Users\Rich Rodi\Desktop\ReDoneProjects\BankATMEmulator\BankATMEmulator\bin\Release\net8.0\BankATMEmulator.pdb
+C:\Users\Rich Rodi\Desktop\ReDoneProjects\BankATMEmulator\BankATMEmulator\obj\Release\net8.0\BankATMEmulator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rich Rodi\Desktop\ReDoneProjects\BankATMEmulator\BankATMEmulator\obj\Release\net8.0\BankATMEmulator.AssemblyInfoInputs.cache
+C:\Users\Rich Rodi\Desktop\ReDoneProjects\BankATMEmulator\BankATMEmulator\obj\Release\net8.0\BankATMEmulator.AssemblyInfo.cs
+C:\Users\Rich Rodi\Desktop\ReDoneProjects\BankATMEmulator\BankATMEmulator\obj\Release\net8.0\BankATMEmulator.csproj.CoreCompileInputs.cache
+C:\Users\Rich Rodi\Desktop\ReDoneProjects\BankATMEmulator\BankATMEmulator\obj\Release\net8.0\BankATMEmulator.sourcelink.json
+C:\Users\Rich Rodi\Desktop\ReDoneProjects\BankATMEmulator\BankATMEmulator\obj\Release\net8.0\BankATMEmulator.dll
+C:\Users\Rich Rodi\Desktop\ReDoneProjects\BankATMEmulator\BankATMEmulator\obj\Release\net8.0\refint\BankATMEmulator.dll
+C:\Users\Rich Rodi\Desktop\ReDoneProjects\BankATMEmulator\BankATMEmulator\obj\Release\net8.0\BankATMEmulator.pdb
+C:\Users\Rich Rodi\Desktop\ReDoneProjects\BankATMEmulator\BankATMEmulator\obj\Release\net8.0\BankATMEmulator.genruntimeconfig.cache
+C:\Users\Rich Rodi\Desktop\ReDoneProjects\BankATMEmulator\BankATMEmulator\obj\Release\net8.0\ref\BankATMEmulator.dll
